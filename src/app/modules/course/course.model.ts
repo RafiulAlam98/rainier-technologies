@@ -55,4 +55,4 @@ const CourseSchema = new Schema<ICourses>(
   },
 )
 
-export const courses = model<ICourses, CourseModel>('courses', CourseSchema)
+export const Courses = model<ICourses, CourseModel>('courses', CourseSchema)
