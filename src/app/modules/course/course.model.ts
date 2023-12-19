@@ -44,7 +44,6 @@ const CourseSchema = new Schema<ICourses>(
         type: String,
         required: false,
       },
-      required: false,
     },
   },
   {
