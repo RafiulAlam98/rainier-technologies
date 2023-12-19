@@ -3,7 +3,7 @@ import { Model } from 'mongoose'
 export type ICourses = {
   name: string
   description: string
-  price: number
+  price: string
   duration: string
   level: string
   topics: string[]
