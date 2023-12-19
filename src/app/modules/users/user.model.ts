@@ -12,24 +12,6 @@ const UserSchema = new Schema<IUser>(
       required: true,
       unique: true,
     },
-    name: {
-      type: {
-        firstName: {
-          type: String,
-          required: false,
-        },
-        lastName: {
-          type: String,
-          required: false,
-        },
-      },
-      required: false,
-    },
-    phoneNumber: {
-      type: String,
-      required: true,
-      unique: true,
-    },
     password: {
       type: String,
       required: true,
@@ -39,14 +21,6 @@ const UserSchema = new Schema<IUser>(
       type: String,
       enum: ['user', 'admin', 'super_admin'],
       required: true,
-    },
-    address: {
-      type: String,
-      required: false,
-    },
-    profileImg: {
-      type: String,
-      required: false,
     },
   },
   {

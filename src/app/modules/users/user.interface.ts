@@ -7,8 +7,6 @@ export type IUser = {
   phoneNumber?: string
   password: string
   role: 'user' | 'admin' | 'super_admin'
-  address?: string
-  profileImg?: string
 }
 
 export type UserModel = {

@@ -6,25 +6,7 @@ const AdminSchema = new Schema<IAdmin>(
     email: {
       type: String,
       required: true,
-      unique:true
-    },
-    name: {
-      type: {
-        firstName: {
-          type: String,
-          required: true,
-        },
-        lastName: {
-          type: String,
-          required: true,
-        },
-      },
-      required: true,
-    },
-    phoneNumber: {
-      type: String,
-      required: true,
-      unique:true
+      unique: true,
     },
     password: {
       type: String,
@@ -34,14 +16,6 @@ const AdminSchema = new Schema<IAdmin>(
     role: {
       type: String,
       enum: ['admin'],
-      required: true,
-    },
-    address: {
-      type: String,
-      required: true,
-    },
-    profileImg: {
-      type: String,
       required: true,
     },
     permissions: {
