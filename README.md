@@ -45,9 +45,3 @@
     "email": "admin@admin.com",
     "password": "admin1234"
 }
-```
-{
-  "cow": "65200deb815549cee5d05da4",
-  "buyer": "65200e1b815549cee5d05dac"
-}
-```
